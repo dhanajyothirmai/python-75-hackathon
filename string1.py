@@ -1,0 +1,15 @@
+jyo = "Hello TACT"
+print("Counts how many times l is in string:")
+print (jyo.count('l'))
+print("Finds the word H in the string:")
+print (jyo.find("H") ) 
+s =  "Hello, when is   the meeting"
+print("\nCounts the number of spaces")
+print( s.count(' '))
+print("\nIdentifies the starting of an element:")
+print(jyo.startswith("H"))
+print("\n\Identifies the ending of an element:")
+print(jyo.endswith("T"))
+print(jyo.endswith("w"))
+print("\nReplaces an element:")
+print(jyo.replace("Hello", "Hey"))
