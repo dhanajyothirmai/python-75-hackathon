@@ -1,0 +1,11 @@
+jyo = "   Hello TACT  "
+print("Prints the reverse of a string")
+print(' '.join(reversed(jyo)))
+print("Removes from both ends")
+print(jyo.strip())
+print("Removes left leading characters")
+print(jyo.lstrip())
+print("Removes right leading characters")
+print(jyo.rstrip())  
+print("Prints the length of a string")
+print(len(jyo))
