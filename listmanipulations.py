@@ -1,0 +1,13 @@
+L = ['ram','sita','dev','mira','lax']
+print(sorted(L))
+print("appends another word")
+print(L.append("hello"))
+print("inserts new value into the list")
+print(L.insert(1,"hell"))
+print("removes from list")
+print(L.remove("hell"))
+print("removes particular value through index")
+print(L.pop(1)) 
+print("counts the no of words in a list")
+print(L.count('dev'))
+print(len(L))
